@@ -3,6 +3,7 @@ h1{
 }
 body
 {
+    margin:0;
     font-family: 'poppins',sans-serif;
 }
 .my-name{
@@ -13,8 +14,16 @@ body
     float: left;
     margin-left: 5%;
     padding-left:2% ;
-    
+
+
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-repeat: no-repeat;
+    background-image:url("images/top-banner.png") ;
+}
+section{
+    height: 500px;
 }
